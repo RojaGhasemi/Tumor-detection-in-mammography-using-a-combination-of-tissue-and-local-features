@@ -1,4 +1,4 @@
-# Project Title : Tumor detection in mammography using a combination of texture and local features
+# Project Title : Tumor detection from mammography images using a combination of texture and local features
 
 ## Abstract
 This research uses a combination of DWT, local binary pattern (LBP), Zernike moment combination, and gray level co-occurrence matrix (GLCM) for feature extraction in medical imaging. Local binary patterns provide faster and simpler calculations, while DWT decomposes images into different frequency components for detailed analysis. GLCM considers the spatial position of pixels, allowing for more variance in the matrix. Zernike moments are effective for feature extraction in mammogram images due to their rotation-invariant features, robustness to noise, and ability to capture both global and local features. These properties make them suitable for accurate and detailed analysis of mammograms. The extracted features are then entered into K-NN classification. The tests have shown high recognition accuracy, with results on the MIAS and DDSM databases.
